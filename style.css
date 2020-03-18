@@ -1,8 +1,67 @@
 *{
     font-family: Arial, Helvetica, sans-serif;
+    margin: 0px;
 }
 
-h1{
-    background-color: #49599a;
+.contenedor{
+    width: 1200px;
+    margin-left: 82px;
+    background-color:blanchedalmond ;
+}
+
+header{
+    width: 100%;
     text-align: center;
+    font-size: 30px;
+    text-transform: uppercase;
+    background-color: blueviolet;
+}
+
+nav{
+    background-color: cadetblue;
+    font-size: 20px;
+}
+
+.lista ul{
+    list-style-type: none;
+    padding-inline-start: 0px;
+  }
+
+.lista  li{
+    display:inline;
+    padding-left:100px;
+    padding-right:100px;
+}  
+
+a {
+    text-decoration: none;
+}
+aside{
+    display: block;
+    float: right;
+    width: 30%;
+    background-color: cornsilk;
+}
+
+section{
+    display: block;
+    float: left;
+    width: 70%;
+    background-color: darkgray;
+}
+
+table, th, td {
+    border: 1px solid black;
+  }
+
+.clear{
+   display: block; 
+   clear: both;
+}
+
+footer{
+    float: none;
+    display: block;
+    width: 100%;
+    background-color: coral;
 }
