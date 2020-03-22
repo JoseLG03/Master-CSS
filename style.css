@@ -1,22 +1,60 @@
+@font-face{
+    font-family: "nevis";
+    src:url("/fonts/nevis.eot");
+    src:url("/fonts/nevis.eot?#iefix") format("embedded-opentype"),
+        url("/fonts/nevis.woff") format("woff"),
+        url("/fonts/nevis.ttf") format("truetype"),
+        url("/fonts/nevis.svg") format("svg");
+    font-weight: normal;
+    font-style: normal;    
+}
+
 *{
     font-family: Arial, Helvetica, sans-serif;
     margin: 0px;
     padding: 0px;
 }
 
-.contenedor{
-    width: 1200px;
-    margin: 0px auto;
-    margin-top: 2%;
-    border: 1px solid black;
+body{
+    background-image: url("./img/paven.png");
 }
 
-header{
+.header{
     width: 100%;
     text-align: center;
     font-size: 30px;
     text-transform: uppercase;
     background-color: #ccc;
+    border-bottom: 10px;
+}
+
+.header a{
+    text-decoration: none;
+    color: #70b231;
+    font-size: 40px;
+    font-family: "nevis";
+    letter-spacing: 4px;
+    margin-top: 10px;
+    font-weight: bold;
+    text-shadow: 0px 1px 2px #333333;
+}
+
+.header a:hover{
+    text-shadow: 0px 1px 1px #333333, 0px 2px 4px #70b231;
+    color: #70b231;
+}
+
+#logo{
+    display: block;
+}
+
+#logoHeader{
+    width: 100px;
+    height: 100px;
+}
+
+#titulo{
+    height: 50px;
 }
 
 .menu{
