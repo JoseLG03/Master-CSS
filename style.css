@@ -57,7 +57,7 @@ body{
     height: 50px;
 }
 
-nav{
+#menu{
     background-color: #333333;
     font-size: 14px;
     box-shadow: 0px 0px 2px gray;
@@ -68,24 +68,35 @@ nav{
     font-family: sans-serif, Arial, Helvetica;
 }
 
-nav ul{
+#menu ul{
     list-style: none;
     text-decoration: none;
     margin: 0px auto;
-    width: 1130px;
+    width: 80%;
 }
 
-nav >ul >li{
-    margin-right: 22px;
+#menu >ul >li{
     line-height: 42px;
     float: left;
     border-right: 1px solid gray;
+    width: 10%;
+    transition: all 1000ms;
 }
 
-nav >ul >li a{
+#menu >ul >li a{
     color: white;
     text-decoration: none;
     display: block;
     padding-left: 20px;
     padding-right: 20px;
+    text-align: center;
+}
+
+#menu >ul >li:hover{
+    background-color: #70b231;
+    box-shadow: 0px 0px 4px green inset;
+}
+
+#inicio{
+    border-left: 1px solid gray;
 }
