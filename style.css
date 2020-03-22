@@ -24,8 +24,8 @@ body{
     text-align: center;
     font-size: 30px;
     text-transform: uppercase;
-    background-color: #ccc;
     border-bottom: 10px;
+    background-color: #ccc;
 }
 
 .header a{
@@ -57,78 +57,35 @@ body{
     height: 50px;
 }
 
-.menu{
-    background-color: cadetblue;
-    font-size: 20px;
-    width: 100%;
+nav{
+    background-color: #333333;
+    font-size: 14px;
+    box-shadow: 0px 0px 2px gray;
     display: block;
-}
-
-.lista ul{
-    list-style-type: none;
-    padding-inline-start: 0px;
-  }
-
-.lista li{
-    display:block;
-    float: left;
-    padding: 10px;
-    border-right: 1px solid #ccc;
-}
-
-.lista li:hover{
-    display:block;
-    float: left;
-    padding: 10px;
-    border-right: 1px solid #ccc;
-    background-color: #ccc;
-}  
-
-a {
-    text-decoration: none;
-    color: black;
-}
-a:hover{
+    width: 100%;
     color: white;
-}
-aside{
-    display: block;
-    float: right;
-    width: 30%;
-    margin-left: 10px;
-    margin-right: 10px;
+    height: 42px;
+    font-family: sans-serif, Arial, Helvetica;
 }
 
-section{
-    display: block;
+nav ul{
+    list-style: none;
+    text-decoration: none;
+    margin: 0px auto;
+    width: 1130px;
+}
+
+nav >ul >li{
+    margin-right: 22px;
+    line-height: 42px;
     float: left;
-    width: 68%;
-    background-color: darkgray;
+    border-right: 1px solid gray;
 }
 
-.caja{
-    border: 1px solid black;
-    width: 40%;
-    height: 200px;
-    float: left;
-    margin: 10px;
-    margin-left: 40px;
-    margin-bottom: 10px;
-}
-
-.clear{
-   display: block; 
-   clear: both;
-}
-
-footer{
-    float: none;
+nav >ul >li a{
+    color: white;
+    text-decoration: none;
     display: block;
-    width: 100%;
-    background-color: #444444;
-    text-align: left;
-    height: 50px;
-    font-size: 18px;
-    text-indent: 30px;
-    line-height: 50px;
+    padding-left: 20px;
+    padding-right: 20px;
 }
