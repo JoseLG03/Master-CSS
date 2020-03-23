@@ -73,6 +73,7 @@ body{
     text-decoration: none;
     margin: 0px auto;
     width: 80%;
+    margin-left: 200px;
 }
 
 #menu >ul >li{
@@ -90,6 +91,7 @@ body{
     padding-left: 20px;
     padding-right: 20px;
     text-align: center;
+    font-weight: bold;
 }
 
 #menu >ul >li:hover{
