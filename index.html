@@ -4,7 +4,7 @@
         <meta charset="utf-8">
         <title>Master en CSS</title>
         <link href="./style.css" rel="stylesheet" type="text/css" />
-        <link rel="icon" type="image/x-icon" href="/img/logo.png">
+        <link href="img/logo.png" rel="shortcut icon" type="image/png"/>
     </head>
     <body>
         <header class="header">
@@ -39,16 +39,56 @@
             </ul>
         </nav>
         <div class="clear"></div>
-        <aside>
-            Menu lateral
-            There are many variations of passages of Lorem Ipsum available.
+        <div class="contenido">
+        <aside id="aside"> 
+            <div id="login" class="widget">
+                <h3>Entrar en la Web</h3>
+                <form>
+                    <label>Usuario:</label>
+                    <input type="text"/>
+                    <label>Contraseña:</label>
+                    <input type="password"/>
+                    <input type="submit" value="Enviar">
+                </form>
+                <a href="#">Zona de Alumnos</a>
+                <a href="#">Zona de Profesores</a>
+                <a href="#">Acceso a calificaciones</a>
+            </div>
+            <div id="aula" class="widget">
+                <h3>Aula virtual</h3>
+                <form>
+                    <label>Usuario:</label>
+                    <input type="text"/>
+                    <label>Contraseña:</label>
+                    <input type="password"/>
+                    <input type="submit" value="Entrar">
+                </form>
+            </div>
+            <div id="enlaces" class="widget">
+                <h3>Enlaces de interes</h3>
+                <ul>
+                    <li><a href="#">Aprende Javascript</a></li>
+                    <li><a href="#">Aprende React</a></li>
+                    <li><a href="#">Aprende PHP</a></li>
+                </ul>
+            </div>
+        </aside>
+        <aside id="frase" class="widget">
+            <p>
+                Frase del día:
+            </p>
+            <p>
+                Lo que no te mata te hace más fuerte.
+            </p>
+            <a>Leer mas frases...</a>
         </aside>
         <section>
             Sección
         </section>
+        </div>
         <div class="clear"></div>
         <footer>
-            Todos los derechos reservados.&copy
+            <p>Todos los derechos reservados.&copy</p>
         </footer>
     </body>
 </html>
