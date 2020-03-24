@@ -9,9 +9,17 @@
 
 @font-face{
     font-family: "fajala";
-    src: url("fonts/FjallaOne-Regular.ttf") format('truetype');
+    src: url("fonts/FjallaOne-Regular.ttf") format('truetype') format('svg');
     font-weight: normal;
     font-style: normal;
+}
+
+@font-face{
+    font-family: "iconos";
+    src:url("fonts/websymbols-regular-webfont.svg#WebSymbolsRegular") format('svg'),
+        url("fonts/websymbols-regular-webfont.eot");  
+    font-weight: normal;
+    font-style: normal;   
 }
 
 *{
@@ -318,18 +326,28 @@ button:active{
     box-shadow: 0px 0px 4px #c9c9c9;
 }
 
+.date{
+    color: gray;
+}
+
+h2{
+    color: #529125;
+}
+
+
 footer{
     display: block;
     width: 100%;
+    margin: 0px auto;
     background-color: #333333;
-    font-size: 16px;
+    font-size: 12px;
     color: white;
     text-transform: uppercase;
-    text-align: left;
+    text-align: center;
     height: 50px;
+    font-family: "fajala";
 }
 
 footer p{
-    margin-left: 60px;
     line-height: 50px;
 }
